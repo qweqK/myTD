@@ -1,0 +1,6 @@
+add_library(buildService INTERFACE BuildService.h)
+target_link_libraries(buildService INTERFACE point defaultTower)
+
+add_library(towerFactoryService INTERFACE TowerFactoryService.h)
+target_link_libraries(towerFactoryService INTERFACE defaultTower)
+

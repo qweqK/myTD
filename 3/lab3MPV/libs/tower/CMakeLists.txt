@@ -1,0 +1,3 @@
+add_subdirectory(baseTower)
+add_subdirectory(magickTrap)
+add_subdirectory(maickTower)

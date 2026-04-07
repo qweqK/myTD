@@ -1,0 +1,6 @@
+add_library(attack_strategy_lib include/defaultAtackStrateg.h include/magickShootAtackStrateg.h include/magickTrapAtackStrategy.h src/defaultAtackStrateg.cpp src/magickShootAtackStrateg.cpp src/magickTrapAtackStrategy.cpp)
+
+target_include_directories(attack_strategy_lib PUBLIC include)
+
+target_link_libraries(attack_strategy_lib base_tower magick_tower magick_trap atackStrategy)
+

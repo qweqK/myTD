@@ -1,0 +1,3 @@
+add_library(controller_impl src/controllerImpl.cpp include/controllerImpl.h)
+target_include_directories(controller_impl PUBLIC include)
+target_link_libraries(controller_impl controller game_service_impl tower_type_registry_impl enemy_type_registry_mem)

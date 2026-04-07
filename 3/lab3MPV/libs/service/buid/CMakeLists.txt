@@ -1,0 +1,8 @@
+add_library(build_service_impl include/BuildServiceImpl.h src/buildService.cpp)
+target_include_directories(build_service_impl PUBLIC include)
+target_link_libraries(build_service_impl buildService)
+
+add_library(tower_factory_service_impl include/towerFactoryServiceImpl.h src/towerFactory.cpp)
+target_include_directories(tower_factory_service_impl PUBLIC include)
+target_link_libraries(tower_factory_service_impl towerFactoryService)
+

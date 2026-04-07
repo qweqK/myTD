@@ -1,0 +1,21 @@
+add_library(attack_registry_mem include/attackStrategyRegistryMem.h src/attackStrategyRegistryMem.cpp)
+target_include_directories(attack_registry_mem PUBLIC include)
+target_link_libraries(attack_registry_mem attack_reg)
+
+add_library(find_target_registry_mem include/findTargetStrategyRegistry.h src/findTargetStrategyRegistry.cpp)
+target_include_directories(find_target_registry_mem PUBLIC include)
+target_link_libraries(find_target_registry_mem find_target_reg)
+
+add_library(effect_registry_mem include/effectStrategyRegistryMem.h src/effectStrategyRegistryMem.cpp)
+target_include_directories(effect_registry_mem PUBLIC include)
+target_link_libraries(effect_registry_mem effect_reg)
+
+add_library(enemy_type_registry_mem include/enemyTypeRegistryMem.h src/enemyTypeRegistryMem.cpp)
+target_include_directories(enemy_type_registry_mem PUBLIC include)
+target_link_libraries(enemy_type_registry_mem enemy_type_registry)
+
+
+add_library(tower_type_registry_impl include/towerTypeRegistryImpl.h src/towerTypeRegistryImpl.cpp)
+target_include_directories(tower_type_registry_impl PUBLIC include)
+target_link_libraries(tower_type_registry_impl enemy_type_registry)
+

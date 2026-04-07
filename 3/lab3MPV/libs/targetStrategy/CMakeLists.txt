@@ -1,0 +1,5 @@
+add_library(shoot_strategy_lib include/findStrategy.h src/targetFindStrategy.cpp)
+
+target_include_directories(shoot_strategy_lib PUBLIC include)
+
+target_link_libraries(shoot_strategy_lib targetFindStrategy)

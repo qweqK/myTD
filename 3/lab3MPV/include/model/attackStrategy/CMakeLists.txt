@@ -1,0 +1,2 @@
+add_library(atackStrategy INTERFACE AttackStrategy.h)
+target_link_libraries(atackStrategy INTERFACE defaultTower enemy)

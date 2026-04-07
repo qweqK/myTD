@@ -1,0 +1,6 @@
+add_subdirectory(model)
+add_subdirectory(dto)
+add_subdirectory(mapper)
+add_subdirectory(controller)
+add_subdirectory(view)
+add_subdirectory(loader)
