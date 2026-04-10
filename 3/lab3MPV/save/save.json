@@ -1,0 +1,276 @@
+{
+    "castle": {
+        "Hp": 800.0,
+        "maxHp": 1000.0,
+        "money": 2000,
+        "name": "arturvelikiy",
+        "x": 11,
+        "y": 8
+    },
+    "enemies": [
+        {
+            "curHp": 90.85213470458984,
+            "effects": [
+                {
+                    "duration": 3.0,
+                    "strength": 7.9506988525390625,
+                    "type": "Poison"
+                },
+                {
+                    "duration": 5.0,
+                    "strength": 0.9506996870040894,
+                    "type": "Slow"
+                }
+            ],
+            "gold": 15,
+            "maxHp": 100.0,
+            "name": "orc",
+            "speed": 0.20000000298023224,
+            "type": "base",
+            "x": 1.7999999523162842,
+            "y": 1.6098607778549194
+        }
+    ],
+    "lairs": [
+        {
+            "enemies": [
+                {
+                    "releaseTime": 10.0,
+                    "type": "orc"
+                },
+                {
+                    "releaseTime": 20.0,
+                    "type": "troll"
+                },
+                {
+                    "releaseTime": 30.0,
+                    "type": "goblin"
+                },
+                {
+                    "releaseTime": 33.0,
+                    "type": "orc"
+                },
+                {
+                    "releaseTime": 35.0,
+                    "type": "troll"
+                },
+                {
+                    "releaseTime": 37.0,
+                    "type": "goblin"
+                },
+                {
+                    "releaseTime": 39.0,
+                    "type": "orc"
+                },
+                {
+                    "releaseTime": 40.0,
+                    "type": "troll"
+                },
+                {
+                    "releaseTime": 43.0,
+                    "type": "goblin"
+                }
+            ],
+            "time": 3.0493004322052,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "enemies": [
+                {
+                    "releaseTime": 10.0,
+                    "type": "orc"
+                },
+                {
+                    "releaseTime": 20.0,
+                    "type": "troll"
+                },
+                {
+                    "releaseTime": 30.0,
+                    "type": "goblin"
+                }
+            ],
+            "time": 3.0493004322052,
+            "x": 2,
+            "y": 9
+        }
+    ],
+    "map": {
+        "data": [
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "height": 10,
+        "width": 15
+    },
+    "towers": [
+        {
+            "attackStrategy": "magickShootAttack",
+            "cost": 100,
+            "level": 1,
+            "levelUpMulti": 1.5,
+            "properties": {
+                "cooldown": "-2.949300",
+                "damage": "4.000000",
+                "duration": "0.100000",
+                "effect": "Slow",
+                "range": "4",
+                "rate": "1.000000",
+                "shootStrategy": "nearest",
+                "strength": "1.100000"
+            },
+            "range": 4,
+            "type": "magickTower",
+            "x": 6,
+            "y": 7
+        }
+    ]
+}

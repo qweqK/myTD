@@ -1,4 +1,4 @@
-find_package(Catch2 2.13.8 REQUIRED)
+find_package(Catch2 3 REQUIRED)
 
 
 include(FetchContent)

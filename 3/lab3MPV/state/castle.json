@@ -1,0 +1,10 @@
+{
+  "castle" : {
+    "money" : 2000,
+    "maxHp": 1000.0,
+    "Hp" : 800,
+    "name" : "arturvelikiy",
+    "x" : 11,
+    "y" : 8
+    }
+}

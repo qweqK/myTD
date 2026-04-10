@@ -3,7 +3,6 @@
 #include <typeindex>
 #include <map>
 #include "mapper.h"
-#include <functional>
 
 template<typename From, typename To, typename FromWrap=From, typename ToWrap=To, typename Key=std::string>
 class SubtypeMapper: public Mapper<From, To, FromWrap, ToWrap> {

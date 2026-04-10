@@ -3,7 +3,6 @@
 #include "model/point/point.h"
 #include <string>
 #include <map>
-#include <memory>
 
 class IEffectBehavior;
 struct ActiveEffect;

@@ -1,7 +1,6 @@
 #pragma once
 #include "model/enemy/Enemy.h"
 #include "model/tower/Tower.h"
-#include  <vector>
 /**
 * интерфейс, для описания стратегии поиска цели
 */

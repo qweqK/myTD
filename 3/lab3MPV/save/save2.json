@@ -1,0 +1,133 @@
+{
+  "castle" : {
+    "money" : 2000,
+    "maxHp": 1000.0,
+    "Hp" : 800,
+    "name" : "arturvelikiy",
+    "x" : 11,
+    "y" : 8
+  },
+  "enemies": [
+    {
+      "type": "base",
+      "name": "orc",
+      "gold": 15,
+      "curHp": 100.0,
+      "maxHp": 100.0,
+      "speed": 1.0,
+      "x": 1.8,
+      "y": 1.0,
+      "effects": [
+        {
+          "type": "Slow",
+          "duration": 4.0,
+          "strength": 5.0
+        },
+        {
+          "type": "Poison",
+          "duration": 11.0,
+          "strength": 3.0
+        }
+      ]
+    }
+  ],  "lairs": [
+  {
+    "x": 0,
+    "y": 0,
+    "time": 0.0,
+    "enemies": [
+      {
+        "type": "orc",
+        "releaseTime": 10.0
+      },
+      {
+        "type": "troll",
+        "releaseTime": 20.0
+      },
+      {
+        "type": "goblin",
+        "releaseTime": 30.0
+      },
+      {
+        "type": "orc",
+        "releaseTime": 33
+      },
+      {
+        "type": "troll",
+        "releaseTime": 35
+      },
+      {
+        "type": "goblin",
+        "releaseTime": 37
+      },
+      {
+        "type": "orc",
+        "releaseTime": 39
+      },
+      {
+        "type": "troll",
+        "releaseTime": 40
+      },
+      {
+        "type": "goblin",
+        "releaseTime": 43
+      }
+    ]
+  },
+  {
+    "x": 2,
+    "y": 9,
+    "time": 0.0,
+    "enemies": [
+      {
+        "type": "orc",
+        "releaseTime": 10.0
+      },
+      {
+        "type": "troll",
+        "releaseTime": 20.0
+      },
+      {
+        "type": "goblin",
+        "releaseTime": 30.0
+      }
+    ]
+  }
+],
+  "map": {
+    "width": 15,
+    "height": 10,
+    "data": [
+      2, 2, 1, 1 ,1 ,1 ,1 ,1 ,1 ,1, 1 ,1 ,1 ,1 ,1,
+      0, 2, 0, 0 ,0 ,0 ,0 ,0 ,0 ,0, 0 ,0 ,0 ,0 ,0,
+      0, 2, 0, 0 ,0 ,0 ,0 ,0 ,0 ,0, 0 ,0 ,0 ,0 ,0,
+      0, 2, 2, 0 ,0 ,0 ,0 ,0 ,0 ,0, 0 ,0 ,0 ,0 ,0,
+      0, 0, 2, 2 ,2 ,2 ,2 ,2 ,2 ,2, 2 ,2 ,0 ,0 ,0,
+      0, 0, 2, 0 ,0 ,0 ,0 ,0 ,2 ,0, 0 ,2 ,0 ,0 ,0,
+      0, 0, 2, 0 ,0 ,0 ,0 ,0 ,2 ,0, 0 ,2 ,0 ,0 ,0,
+      0, 0, 2, 0 ,0 ,0 ,0 ,0 ,2 ,0, 0 ,2 ,0 ,0 ,0,
+      0, 0, 2, 0 ,0 ,0 ,0 ,0 ,2 ,2, 2 ,2 ,2 ,2 ,2,
+      0, 0, 2, 0 ,0 ,0 ,0 ,0 ,0 ,0, 0 ,0 ,0 ,0 ,0
+    ]
+  }, "towers": [
+  {
+    "type": "magickTower",
+    "level": 1,
+    "cost": 100,
+    "x": 6,
+    "y": 7,
+    "attackStrategy": "magickShootAttack",
+    "range": 4,
+    "levelUpMulti": 1.5,
+    "properties": {
+      "damage": "4",
+      "rate": "1.0",
+      "cooldown": "0.1",
+      "shootStrategy" : "nearest",
+      "effect" : "Slow",
+      "duration" : "0.1",
+      "strength" : "1.1"
+    }
+  }
+]
+}

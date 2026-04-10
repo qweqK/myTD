@@ -1,0 +1,19 @@
+{
+  "lairs": [
+    {
+      "x": 0,
+      "y": 0,
+      "time": 0.0,
+      "enemies": [
+        {
+          "type": "orc",
+          "releaseTime": 1.0
+        },
+        {
+          "type": "troll",
+          "releaseTime": 20.0
+        }
+      ]
+    }
+  ]
+}

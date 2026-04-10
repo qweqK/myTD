@@ -4,7 +4,7 @@
 #include "model/enemy/Enemy.h"
 #include "model/tower/Tower.h"
 #include "model/tower/Tower.h"
-#include <vector>
+
 /**
  * осбстрактный класс для стратегии атаки
  */

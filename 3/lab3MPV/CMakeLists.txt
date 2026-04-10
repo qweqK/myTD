@@ -36,7 +36,6 @@ target_link_libraries(lab3Copy
 )
 
 
-
 add_subdirectory(tests)
 include_directories(tests)
 

@@ -1,0 +1,23 @@
+{
+  "towers": [
+    {
+      "type": "magickTower",
+      "level": 1,
+      "cost": 100,
+      "x": 6,
+      "y": 7,
+      "attackStrategy": "magickShootAttack",
+      "range": 4,
+      "levelUpMulti": 1.5,
+      "properties": {
+        "damage": "4",
+        "rate": "1.0",
+        "cooldown": "0.1",
+        "shootStrategy" : "nearest",
+        "effect" : "Slow",
+        "duration" : "0.1",
+        "strength" : "1.1"
+      }
+    }
+  ]
+}

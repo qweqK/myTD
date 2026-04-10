@@ -1,0 +1,31 @@
+{
+  "enemies": [
+    {
+      "type": "base",
+      "name": "orc",
+      "gold": 15,
+      "curHp": 50.0,
+      "maxHp": 50.0,
+      "speed": 2.0,
+      "x": 1.5,
+      "y": 3.0,
+      "effects": [
+        {
+          "type": "Slow",
+          "duration": 5.0,
+          "strength": 5.0
+        },
+        {
+          "type": "Poison",
+          "duration": 6.0,
+          "strength": 10
+        },
+        {
+          "type": "Weak",
+          "duration": 6.0,
+          "strength": 10
+        }
+      ]
+    }
+    ]
+  }

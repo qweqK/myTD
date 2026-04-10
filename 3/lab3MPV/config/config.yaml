@@ -1,0 +1,56 @@
+enemy:
+  - type: "base"
+    name: "orc"
+    health: 120
+    speed: 1.2
+    gold: 10
+
+  - type: "base"
+    name: "troll"
+    health: 60
+    speed: 2
+    gold: 5
+
+  - type: "base"
+    name: "goblin"
+    health: 300
+    speed: 2
+    gold: 30
+
+
+tower:
+  - type: "baseTower"
+    cost: 50
+    range: 3
+    levelMult: 1.2
+    attackStrategy: "defaultAttack"
+    properties:
+      damage: "60"
+      rate: "1.0"
+      cooldown: "0.0"
+      shootStrategy: "nearest"
+
+  - type: "magickTower"
+    cost: 100
+    range: 4
+    levelMult: 1.5
+    attackStrategy: "magickShootAttack"
+    properties:
+      damage: "15"
+      rate: "1.0"
+      cooldown: "0.0"
+      shootStrategy: "nearest"
+      effect: "Slow"
+      duration: "2.0"
+      strength: "2.0"
+
+
+  - type: "magickTrap"
+    cost: 100
+    range: 4
+    levelMult: 1.5
+    attackStrategy: "magickTrapAttack"
+    properties:
+      effect: "Slow"
+      duration: "2.0"
+      strength: "2.0"
